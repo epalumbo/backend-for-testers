@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  jpa:
+    generate-ddl: true
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create
